@@ -1,0 +1,5 @@
+@value monoRed from "component/color/color";
+
+.home {
+  border: 1px solid monoRed;
+}

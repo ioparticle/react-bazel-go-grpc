@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package grpc_web_hacker_news;
+
+message User {
+    int32 id = 1;
+    int32 score = 2;
+    string firstname = 3;
+    string lastname = 4;
+    string email = 5;
+}
+
+service UserService {
+    rpc ListUsers (ListUsersRequest) returns (stream ListUsersResponse);
+}
+
+message ListUsersResponse {
+    User story = 1;
+}
+message ListUsersRequest {}

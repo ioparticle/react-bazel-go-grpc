@@ -1,0 +1,22 @@
+{
+  "name": "react-bazel-go-grpc",
+  "version": "0.1.0",
+  "description": "React Bazel Go gRPC",
+  "devDependencies": {
+    "@bazel/bazel": "Latest version",
+    "@bazel/buildifier": "Latest version",
+    "@bazel/ibazel": "Latest version",
+    "@bazel/typescript": "Latest version",
+    "@types/react": "Latest version",
+    "@types/react-dom": "Latest version",
+    "http-server": "Latest version",
+    "typescript": "Latest version"
+  },
+  "scripts": {
+    "start-frontend": "Start the frontend on devserver on watch mode",
+    "build-frontend": "Build the frontend",
+    "start-backend": "Start the backend on watch mode if posible",
+    "build-backend": "Build the backend", 
+    "build-grpc": "Build the gRPC go/typescript classes and interfaces" 
+  }
+}
